@@ -1,0 +1,76 @@
+
+
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Default font and colour for all elements */
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Level 2 headings */
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Italic text in the aside and footer */
+aside, footer {
+    font-style: italic;
+}
+
+/* Font for all three heading levels */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Borders around the table and its cells */
+table, th, td {
+    border: 1px solid black;
+}
+/* Centre the Images heading */
+#images {
+    text-align: center;
+}
+
+/* Make only the Headings h3 red */
+#heading-example {
+    color: red;
+}
+
+/* Highlight special characters */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Right-align month headings */
+.month {
+    text-align: right;
+}
+/* Style links inside the navigation menu */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Square bullets only for unordered lists inside ordered lists */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hide the aside when the mouse is over it */
+aside:hover {
+    display: none;
+}
+
+/* Change menu colours when the mouse is over a link */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
